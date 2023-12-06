@@ -29,13 +29,13 @@ export default defineNuxtConfig({
 
   pwa: {
     manifest: {
-      "theme_color": "#f9f8f7",
-      "background_color": "#0e0e0e",
+      "theme_color": "#f69435",
+      "background_color": "#f69435",
       "display": "standalone",
       "scope": "/",
       "start_url": "/",
-      "name": "ECOMMERCE",
-      "short_name": "ecommerce_ribi",
+      "name": "Organic - Mart",
+      "short_name": "Mart",
       "icons": [
           {
               "src": "/icon-192x192.png",

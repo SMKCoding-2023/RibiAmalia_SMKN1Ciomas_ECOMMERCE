@@ -5,6 +5,7 @@ type: Object,
 default: {},
 }
 })
+
 </script>
 
 <template>

@@ -1,6 +1,10 @@
 <script lang="ts" setup>
 import type { Products } from '~/types/products';
 
+definePageMeta({
+middleware: ["user-access"]
+});
+
 const removeCart = (id: number) => {
 products.value = products.value.filter((item) => item.id !== id);
 localStorage.setItem("products", JSON.stringify(products.value));

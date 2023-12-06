@@ -18,8 +18,8 @@ const { categories } = storeToRefs(categoryStore);
 categoryStore.getAllCategory();
 
 const formCreateProduct = [
-  { name: "name", label: "Name", type: "text", value: "", placeholder: "Men's Streetwear", required: true },
-  { name: "description", label: "Description", type: "text", value: "", placeholder: "This shirt features a vibrant and eye-catching color and a solid pattern that will give you a happy feeling...", required: true },
+  { name: "name", label: "Name", type: "text", value: "", placeholder: "Apel", required: true },
+  { name: "description", label: "Description", type: "text", value: "", placeholder: "Segera cicipi kelembutan dan rasa manis alami apel kami...", required: true },
   { name: "price", label: "Price", type: "number", value: "", placeholder: "$30", required: true },
   { name: "image", label: "Image", type: "file", value: {}, placeholder: "", required: true },
   { name: "category", label: "Category", type: "select", value: "", placeholder: "", required: true },

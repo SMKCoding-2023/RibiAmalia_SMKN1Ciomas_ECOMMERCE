@@ -11,7 +11,7 @@ const { baseStorageUrl } = useAppConfig();
 
 <template>
   <section class="bg-white shadow-xl rounded-xl overflow-hidden">
-  <div :class="`w-full h-[200px] p-5 bg-gray-300`">
+  <div :class="`w-full h-[200px] p-5`">
   <img :src="baseStorageUrl + props.product.image" class="w-full h-full
   object-contain"/>
   </div>
@@ -19,6 +19,7 @@ const { baseStorageUrl } = useAppConfig();
   
   <NuxtLink :to="`/product/${props.product.id}`" ><h3 class="text-lg font-
   bold mb-4 text-limit limit-2">{{ props.product.name }}</h3></NuxtLink>
+  
   
   <div class="flex justify-between items-center">
   <span class="text-sm font-normal">{{ props.product.category }}</span>
